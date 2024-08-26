@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Noto Sans';
+  /* position: relative; */
+
+}
+#root{
+  min-height:100vh;
+  display:flex;
+  animation: fadeIn 1.5s ;
+}
+@keyframes fadeIn{
+  0%{
+    opacity:0;
+  }
+  100%{
+      opatcity:1;
+  }
+}
